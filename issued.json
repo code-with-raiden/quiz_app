@@ -1,0 +1,68 @@
+{
+  "students": {
+    "conditionals:2001": {
+      "name": "sagar",
+      "questions": [
+        "EL12",
+        "EL45",
+        "NI24",
+        "IF46",
+        "NI12",
+        "EL31",
+        "EL28",
+        "NI04",
+        "IF08",
+        "IF09"
+      ]
+    },
+    "advanced:12345": {
+      "name": "sagar",
+      "questions": [
+        "LM04",
+        "FH07",
+        "MP01",
+        "DC08",
+        "MP03",
+        "SC02",
+        "EX05",
+        "EX02",
+        "MP09",
+        "DC10"
+      ]
+    }
+  },
+  "served": {
+    "conditionals": {
+      "EL12": 1,
+      "EL45": 1,
+      "NI24": 1,
+      "IF46": 1,
+      "NI12": 1,
+      "EL31": 1,
+      "EL28": 1,
+      "NI04": 1,
+      "IF08": 1,
+      "IF09": 1
+    },
+    "advanced": {
+      "LM04": 1,
+      "FH07": 1,
+      "MP01": 1,
+      "DC08": 1,
+      "MP03": 1,
+      "SC02": 1,
+      "EX05": 1,
+      "EX02": 1,
+      "MP09": 1,
+      "DC10": 1
+    }
+  },
+  "sets": {
+    "conditionals": [
+      "EL12|EL28|EL31|EL45|IF08|IF09|IF46|NI04|NI12|NI24"
+    ],
+    "advanced": [
+      "DC08|DC10|EX02|EX05|FH07|LM04|MP01|MP03|MP09|SC02"
+    ]
+  }
+}

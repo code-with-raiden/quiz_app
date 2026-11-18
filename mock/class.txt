@@ -1,0 +1,241 @@
+
+## 1. Student Management System
+
+### Scenario
+
+A school wants to store student information. Each student has a name, age, roll number, and marks. The school wants to calculate the student's total and average marks.
+
+### Question
+
+Create a `Student` class that:
+
+1. Uses a constructor to initialize student details.
+2. Keeps `name`, `age`, `roll_no`, and `marks` as private attributes.
+3. Has an instance method `calculate_total()`.
+4. Has an instance method `calculate_average()`.
+5. Uses a list to store marks.
+6. Uses a loop to calculate the total.
+7. Uses `>`, `<`, and `==` operators to check marks.
+8. Create two student objects and display their details.
+
+**Concepts:** Encapsulation, private variables, constructor, instance method, list, loop, operators.
+
+
+## 2. Bank Account
+
+### Scenario
+
+A bank wants a simple system to manage customer accounts. Customers can deposit and withdraw money. The balance should not be directly changed from outside the class.
+
+### Question
+
+Create a `BankAccount` class that:
+
+1. Has private attributes:
+
+   * `__account_number`
+   * `__name`
+   * `__balance`
+2. Uses a constructor.
+3. Create `deposit()` as an instance method.
+4. Create `withdraw()` as an instance method.
+5. Do not allow withdrawal if the amount is greater than the balance.
+6. Store transactions in a list.
+7. Use a loop to display all transactions.
+8. Create a `@staticmethod` to check whether the deposit amount is valid.
+9. Create a `@classmethod` to create an account from a string such as:
+   `"101-Ravi-5000"`.
+
+**Concepts:** Encapsulation, constructor, private variables, instance method, static method, class method, list, loop, operators.
+
+
+## 3. Employee Salary System
+
+### Scenario
+
+A company wants to store employee information and calculate salaries.
+
+### Question
+
+Create an `Employee` class that:
+
+1. Has private attributes:
+
+   * `__name`
+   * `__employee_id`
+   * `__salary`
+2. Uses a constructor.
+3. Create an instance method `display_details()`.
+4. Create an instance method `increase_salary()`.
+5. Use a `@staticmethod` to check whether a salary is valid.
+6. Use a `@classmethod` to create an employee from a dictionary.
+7. Store multiple employees in a dictionary.
+8. Use a loop to display all employees.
+9. Find the employee with the highest salary.
+
+**Concepts:** Encapsulation, constructor, instance method, static method, class method, dictionary, loop, operators.
+
+## 4. Vehicle Rental
+
+### Scenario
+
+A rental company rents cars and bikes to customers.
+
+There are different types of vehicles:
+
+Vehicle
+   |
+   |-- Car
+   |
+   |-- Bike
+
+
+### Question
+
+Create:
+
+* `Vehicle`
+* `Car`
+* `Bike`
+
+Requirements:
+
+1. `Vehicle` should have private attributes:
+
+   * `__vehicle_number`
+   * `__model`
+   * `__price_per_day`
+2. Use a constructor.
+3. Create an instance method `calculate_rent(days)`.
+4. `Car` and `Bike` should inherit from `Vehicle`.
+5. Override `calculate_rent()` in both classes.
+6. Create a static method to check whether the number of rental days is valid.
+7. Store rented vehicles in a list.
+8. Use a loop to display rented vehicles.
+9. Use `>` to find vehicles costing more than ₹1,000 per day.
+
+**Concepts:** Encapsulation, inheritance, constructor, method overriding, instance method, static method, list, loop, operators.
+
+
+## 5. Library Book System
+
+### Scenario
+
+A library wants to maintain books. A book can be borrowed and returned.
+
+### Question
+
+Create a `Book` class that:
+
+1. Has private attributes:
+
+   * `__title`
+   * `__author`
+   * `__price`
+   * `__available`
+2. Uses a constructor.
+3. Create `borrow_book()`.
+4. Create `return_book()`.
+5. Create `display_book()`.
+6. Use a list to store books.
+7. Use a loop to display available books.
+8. Use a static method to validate the book price.
+9. Use a class method to create a book from:
+   `"Python Basics-Ravi-500"`.
+10. Use `==` to check whether two books have the same title.
+
+**Concepts:** Encapsulation, constructor, instance method, static method, class method, list, loop, operators.
+
+
+## 6. Shopping Cart
+
+### Scenario
+
+An online shopping website allows customers to add products to a shopping cart.
+
+### Question
+
+Create a `Product` class and a `ShoppingCart` class.
+
+`Product` should have:
+
+```text
+__name
+__price
+__quantity
+```
+
+Requirements:
+
+1. Use constructors.
+2. Add products to the cart.
+3. Remove products from the cart.
+4. Calculate the total price.
+5. Store products in a list.
+6. Use a loop to calculate the total.
+7. Create a static method to validate product price.
+8. Create a class method to create a product from a dictionary.
+9. Create a decorator `@discount` that applies a 10% discount.
+10. Display the final price.
+
+**Concepts:** Encapsulation, constructors, composition, list, loops, static method, class method, decorator, operators.
+
+
+## 7. Mobile Phone
+
+### Scenario
+
+A mobile phone has a brand, model, battery percentage, and installed applications.
+
+### Question
+
+Create a `MobilePhone` class that:
+
+1. Uses private attributes:
+
+   * `__brand`
+   * `__model`
+   * `__battery`
+   * `__apps`
+2. Uses a constructor.
+3. Create `install_app()`.
+4. Create `remove_app()`.
+5. Create `charge_phone()`.
+6. Use a list for installed applications.
+7. Use a loop to display applications.
+8. Create a static method to validate battery percentage.
+9. Create a class method to create a phone from a dictionary.
+10. Create a decorator that prints `"Phone operation started"` before executing an operation.
+
+**Concepts:** Encapsulation, constructor, list, loop, static method, class method, decorator.
+
+
+## 8. Simple Product Inventory
+
+### Scenario
+
+A small shop wants to keep track of its products and stock.
+
+### Question
+
+Create a `Product` class with:
+
+```text
+__product_id
+__name
+__price
+__stock
+```
+
+Requirements:
+
+1. Use a constructor.
+2. Create `add_stock()`.
+3. Create `sell_product()`.
+4. Prevent selling when stock is insufficient.
+5. Store products in a dictionary.
+6. Store product categories in a set.
+7. Use a loop to display products.
+8. Create a static method to validate stock.
+9. Create a class method to create a product from a dictionary.
+10. Create a decorator that prints `"Stock updated"` after stock changes.
