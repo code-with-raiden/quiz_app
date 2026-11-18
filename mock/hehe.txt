@@ -1,0 +1,966 @@
+# **50 Python Scenario-Based Questions – If & If-Else**
+
+## **1. Student & Education Management**
+
+1\. **Exam Pass or Fail**
+ 
+&#x20;  Scenario: A school needs to check whether a student has passed an examination. A student passes if their marks are 35 or above.
+
+&#x20;  Question: Write a Python program to accept a student's marks and check whether the student has passed or failed.
+
+2\. **Scholarship Eligibility**
+
+&#x20;  Scenario: A college provides scholarships to students who score 90 or above in their final examination.
+
+&#x20;  Question: Write a Python program to accept a student's marks and check whether they are eligible for a scholarship.
+
+3\. **Library Book Access**
+
+&#x20;  Scenario: A library allows students to borrow books only if they have a valid library card.
+
+&#x20;  Question: Write a Python program to check whether a student can borrow a book based on their library card status.
+
+4\. **Attendance Eligibility**
+
+&#x20;  Scenario: A college requires students to maintain at least 75% attendance to attend examinations.
+
+&#x20;  Question: Write a Python program to accept attendance percentage and check whether a student is eligible for the examination.
+
+5\. **Age-Based Admission**
+
+&#x20;  Scenario: A school accepts admissions for children who are at least 5 years old.
+
+&#x20;  Question: Write a Python program to accept a child's age and check whether they are eligible for admission.
+
+## **2. Banking & Finance**
+
+6\. **ATM Withdrawal**
+
+&#x20;  Scenario: An ATM allows customers to withdraw money only when their account balance is sufficient.
+
+&#x20;  Question: Write a Python program to accept account balance and withdrawal amount, then check whether the withdrawal is possible.
+
+7\. **Minimum Bank Balance**
+
+&#x20;  Scenario: A bank requires customers to maintain a minimum balance of ₹1,000. If the balance goes below this amount, the account is marked as low balance.
+
+&#x20;  Question: Write a Python program to check whether an account has maintained the minimum balance.
+
+8\. **Loan Eligibility**
+
+&#x20;  Scenario: A bank considers customers eligible for a basic personal loan only if their monthly salary is ₹25,000 or above.
+
+&#x20;  Question: Write a Python program to accept monthly salary and check loan eligibility.
+
+9\. **UPI Transaction Verification**
+
+&#x20;  Scenario: A UPI application allows payments only when the entered PIN matches the registered PIN.
+
+&#x20;  Question: Write a Python program to accept a PIN and check whether it matches the registered PIN.
+
+10\. **Fixed Deposit Eligibility**
+
+&#x20;   Scenario: A bank offers a special fixed deposit scheme to customers aged 60 or above.
+
+&#x20;   Question: Write a Python program to accept a customer's age and check whether they qualify for the senior citizen scheme.
+
+## **3. E-Commerce & Shopping**
+
+11\. **Free Delivery Eligibility**
+
+&#x20;   Scenario: An online shopping platform provides free delivery for orders worth ₹500 or more.
+
+&#x20;   Question: Write a Python program to accept an order amount and check whether the customer gets free delivery.
+
+12\. **Product Stock Availability**
+
+&#x20;   Scenario: An online store receives an order request. A product can be purchased only if at least one unit is available in stock.
+
+&#x20;   Question: Write a Python program to accept available stock and check whether the product can be ordered.
+
+13\. **Discount Eligibility**
+
+&#x20;   Scenario: A shopping website provides a 10% discount to customers whose purchase amount is ₹2,000 or above.
+
+&#x20;   Question: Write a Python program to accept the purchase amount and check whether the customer is eligible for a discount.
+
+14\. **Coupon Validation**
+
+Scenario: An e-commerce website provides a special coupon named `SAVE100`. Customers receive a discount only if they enter the correct coupon.
+
+&#x20;   Question: Write a Python program to accept a coupon code and check whether it is valid.
+
+15\. **Return Request**
+
+&#x20;   Scenario: An online shopping platform accepts product returns only within 7 days of delivery.
+
+&#x20;   Question: Write a Python program to accept the number of days since delivery and check whether the product is eligible for return.
+
+## **4. Employee & Office Management**
+
+16\. **Employee Login**
+
+&#x20;   Scenario: A company employee can access the internal dashboard only if they enter the correct employee password.
+
+&#x20;   Question: Write a Python program to accept a password and check whether the employee can log in.
+
+17\. **Bonus Eligibility**
+
+&#x20;   Scenario: A company provides an annual bonus to employees who have completed at least 2 years of service.
+
+&#x20;   Question: Write a Python program to accept an employee's experience in years and check whether they qualify for the bonus.
+
+18\. **Overtime Payment**
+
+&#x20;   Scenario: A company provides overtime payment when an employee works more than 8 hours in a day.
+
+&#x20;   Question: Write a Python program to accept working hours and check whether the employee is eligible for overtime payment.
+
+19\. **Leave Approval**
+
+&#x20;   Scenario: An employee can apply for leave only if they have at least one leave day remaining.
+
+&#x20;   Question: Write a Python program to accept available leave days and check whether the employee can apply for leave.
+
+20\. **Work-from-Home Eligibility**
+
+&#x20;   Scenario: A company allows employees to work from home only if their manager has approved the request.
+
+&#x20;   Question: Write a Python program to accept approval status and check whether the employee can work from home.
+
+## **5. Healthcare & Fitness**
+
+21\. **Blood Donation Eligibility**
+
+&#x20;   Scenario: A blood donation camp accepts donors who are at least 18 years old.
+
+&#x20;   Question: Write a Python program to accept a person's age and check whether they are eligible to donate blood.
+
+22\. **Hospital Appointment**
+
+&#x20;   Scenario: A hospital allows patients to confirm an appointment only if a doctor's appointment slot is available.
+
+&#x20;   Question: Write a Python program to accept slot availability and check whether the appointment can be confirmed.
+
+23\. **Gym Membership Discount**
+
+&#x20;   Scenario: A gym provides a special discount to members who purchase an annual membership.
+
+&#x20;   Question: Write a Python program to accept membership type and check whether the customer qualifies for the discount.
+
+24\. **BMI Health Check**
+
+&#x20;   Scenario: A fitness application classifies a person's BMI as overweight if the BMI is 25 or above.
+
+&#x20;   Question: Write a Python program to accept BMI and check whether the person is overweight.
+
+25\. **Medicine Availability**
+
+&#x20;   Scenario: A medical store receives a prescription request. The medicine can be provided only if it is available in stock.
+
+&#x20;   Question: Write a Python program to check whether the requested medicine is available.
+
+## **6. Transportation & Travel**
+
+26\. **Driving License Eligibility**
+
+&#x20;   Scenario: A transport department allows people aged 18 or above to apply for a driving license.
+
+&#x20;   Question: Write a Python program to accept age and check whether a person is eligible to apply for a driving license.
+
+27\. **Train Ticket Confirmation**
+
+&#x20;   Scenario: A railway booking system confirms a ticket only if at least one seat is available.
+
+&#x20;   Question: Write a Python program to accept available seats and check whether a ticket can be booked.
+
+28\. **Vehicle Speed Monitoring**
+
+&#x20;   Scenario: A traffic monitoring system considers a vehicle overspeeding if its speed exceeds 80 km/h.
+
+&#x20;   Question: Write a Python program to accept vehicle speed and check whether the vehicle is overspeeding.
+
+29\. **Fuel Availability**
+
+&#x20;   Scenario: A vehicle owner wants to travel 100 kilometres. The vehicle can complete the journey only if its available fuel is sufficient for the estimated fuel requirement.
+
+&#x20;   Question: Write a Python program to accept available fuel and required fuel, then check whether the journey is possible.
+
+30\. **Parking Fee Eligibility**
+
+&#x20;   Scenario: A shopping mall provides free parking for customers who spend ₹1,000 or more at its stores.
+
+&#x20;   Question: Write a Python program to accept the shopping amount and check whether the customer receives free parking.
+
+## **7. Technology & Software Applications**
+
+31\. **File Upload Validation**
+
+&#x20;   Scenario: A website allows users to upload files only if the file size is 5 MB or less.
+
+&#x20;   Question: Write a Python program to accept file size and check whether the file can be uploaded.
+
+32\. **Internet Data Availability**
+
+&#x20;   Scenario: A mobile application requires at least 100 MB of internet data to download a particular update.
+
+&#x20;   Question: Write a Python program to accept available data and check whether the update can be downloaded.
+
+33\. **Website Access Control**
+
+Scenario: An admin dashboard is accessible only to users with the role `admin`.
+
+&#x20;   Question: Write a Python program to accept a user's role and check whether dashboard access is allowed.
+
+34\. **Password Strength Check**
+
+&#x20;   Scenario: A registration system considers a password valid if it contains at least 8 characters.
+
+&#x20;   Question: Write a Python program to accept a password and check whether it meets the minimum length requirement.
+
+35\. **Software Update Notification**
+
+&#x20;   Scenario: A software application checks its current version. If the installed version is lower than the latest available version, an update is required.
+
+&#x20;   Question: Write a Python program to accept the installed and latest version numbers and check whether an update is required.
+
+## **8. Food & Restaurant Management**
+
+36\. **Restaurant Table Booking**
+
+&#x20;   Scenario: A restaurant accepts table reservations only if at least one table is available.
+
+&#x20;   Question: Write a Python program to accept the number of available tables and check whether a reservation can be made.
+
+37\. **Food Order Minimum Amount**
+
+&#x20;   Scenario: A food delivery application accepts online orders only when the total order amount is ₹100 or above.
+
+&#x20;   Question: Write a Python program to accept the order amount and check whether the order can be placed.
+
+38\. **Kitchen Order Processing**
+
+&#x20;   Scenario: A restaurant kitchen starts preparing an order only after receiving payment confirmation.
+
+&#x20;   Question: Write a Python program to accept payment status and check whether the kitchen should start preparing the order.
+
+39\. **Food Expiry Check**
+
+&#x20;   Scenario: A supermarket checks food products before selling them. A product cannot be sold if it has expired.
+
+&#x20;   Question: Write a Python program to accept expiry status and check whether the product can be sold.
+
+40\. **Customer Feedback Reward**
+
+&#x20;   Scenario: A restaurant gives a free dessert to customers who provide feedback after their meal.
+
+&#x20;   Question: Write a Python program to accept feedback submission status and check whether the customer receives a free dessert.
+
+## **9. Entertainment & Sports**
+
+41\. **Movie Ticket Eligibility**
+
+&#x20;   Scenario: A cinema allows children aged 12 or above to watch a movie with a 12+ age rating.
+
+&#x20;   Question: Write a Python program to accept a person's age and check whether they can watch the movie.
+
+42\. **Gaming Level Unlock**
+
+&#x20;   Scenario: A video game unlocks the next level only when the player scores at least 100 points.
+
+&#x20;   Question: Write a Python program to accept a player's score and check whether the next level is unlocked.
+
+43\. **Tournament Registration**
+
+&#x20;   Scenario: A sports tournament accepts registrations only from players who have completed the registration fee payment.
+
+&#x20;   Question: Write a Python program to accept payment status and check whether the player can participate.
+
+44\. **Swimming Pool Entry**
+
+&#x20;   Scenario: A swimming club allows entry only to members who have an active membership.
+
+&#x20;   Question: Write a Python program to accept membership status and check whether the person can enter the swimming pool.
+
+45\. **Online Video Access**
+
+&#x20;   Scenario: A streaming platform allows premium videos to be played only by users with an active premium subscription.
+
+&#x20;   Question: Write a Python program to accept subscription status and check whether premium video access is allowed.
+
+## **10. General Real-World Applications**
+
+46\. **Electricity Bill Alert**
+
+&#x20;   Scenario: An electricity board sends a high-usage alert when monthly consumption exceeds 300 units.
+
+&#x20;   Question: Write a Python program to accept electricity consumption and check whether a high-usage alert should be generated.
+
+47\. **Water Tank Monitoring**
+
+&#x20;   Scenario: A smart water tank system sends a notification when the water level reaches 90% or above.
+
+&#x20;   Question: Write a Python program to accept the water level percentage and check whether a notification should be sent.
+
+48\. **Parcel Delivery Status**
+
+&#x20;   Scenario: A courier company marks a parcel as delivered only when the delivery agent confirms successful delivery.
+
+&#x20;   Question: Write a Python program to accept delivery confirmation status and check whether the parcel should be marked as delivered.
+
+49\. **Weather Alert System**
+
+&#x20;   Scenario: A weather monitoring application sends a heat alert when the temperature reaches 40°C or above.
+
+&#x20;   Question: Write a Python program to accept the current temperature and check whether a heat alert should be generated.
+
+50\. **Smart Door Lock**
+
+&#x20;   Scenario: A smart home system unlocks its main door only when the entered security code matches the registered code.
+
+&#x20;   Question: Write a Python program to accept a security code and check whether the door should be unlocked.
+
+#  50 Questions Using elif**
+
+## **1. Inventory & Warehouse Management**
+
+1\. **Warehouse Storage Classification**
+
+&#x20;  Scenario: A warehouse classifies storage usage as Low (below 30%), Medium (30–60%), High (61–85%), and Critical (above 85%).
+
+Question: Accept warehouse storage percentage and display its current storage category using `if-elif-else`.
+
+2\. **Package Weight Classification**
+
+&#x20;  Scenario: A courier company classifies packages as Light (below 1 kg), Medium (1–5 kg), Heavy (6–15 kg), and Extra Heavy (above 15 kg).
+
+&#x20;  Question: Accept package weight and display its category.
+
+3\. **Inventory Reorder Status**
+
+&#x20;  Scenario: A store classifies product quantities as Out of Stock (0), Low Stock (1–10), Moderate Stock (11–50), and Sufficient Stock (above 50).
+
+&#x20;  Question: Accept available quantity and display the inventory status.
+
+4\. **Warehouse Temperature Monitoring**
+
+&#x20;  Scenario: A cold-storage warehouse classifies temperature as Freezing (below 0°C), Cold (0–5°C), Normal (6–15°C), and Warm (above 15°C).
+
+&#x20;  Question: Accept temperature and display the storage condition.
+
+5\. **Product Shelf-Life Classification**
+
+&#x20;  Scenario: A warehouse classifies products based on remaining shelf life: Critical (0–5 days), Short (6–15 days), Moderate (16–30 days), and Long (above 30 days).
+
+&#x20;  Question: Accept remaining shelf-life days and display the category.
+
+## **2. Manufacturing & Production**
+
+6\. **Machine Performance Classification**
+
+&#x20;  Scenario: A factory classifies machine efficiency as Poor (below 50%), Average (50–70%), Good (71–90%), and Excellent (above 90%).
+
+&#x20;  Question: Accept machine efficiency and display its performance category.
+
+7\. **Production Target Evaluation**
+
+&#x20;  Scenario: A manufacturing company evaluates daily production: Below Target (below 500 units), Target Achieved (500–700), Above Target (701–1,000), and Outstanding (above 1,000).
+
+&#x20;  Question: Accept production quantity and display the result.
+
+8\. **Raw Material Quality**
+
+&#x20;  Scenario: A factory classifies raw material quality based on inspection scores: Rejected (below 40), Acceptable (40–60), Good (61–80), and Excellent (above 80).
+
+&#x20;  Question: Accept quality score and display the material classification.
+
+9\. **Machine Maintenance Priority**
+
+&#x20;  Scenario: A factory classifies machine maintenance priority based on operating hours: Low (below 100), Medium (100–500), High (501–1,000), and Critical (above 1,000).
+
+&#x20;  Question: Accept operating hours and display maintenance priority.
+
+10\. **Defective Product Percentage**
+
+&#x20;   Scenario: A production unit classifies defect rates: Excellent (below 1%), Acceptable (1–3%), Warning (above 3–5%), and Critical (above 5%).
+
+&#x20;   Question: Accept defective product percentage and display the quality status.
+
+## **3. Agriculture & Farming**
+
+11\. **Soil Moisture Classification**
+
+&#x20;   Scenario: A smart farming system classifies soil moisture as Dry (below 20%), Moderate (20–40%), Moist (41–70%), and Wet (above 70%).
+
+&#x20;   Question: Accept soil moisture percentage and display the soil condition.
+
+12\. **Crop Growth Stage**
+
+&#x20;   Scenario: A farmer tracks crop age: Seedling (0–15 days), Vegetative (16–40 days), Flowering (41–60 days), and Maturity (above 60 days).
+
+&#x20;   Question: Accept crop age and display the growth stage.
+
+13\. **Rainfall Classification**
+
+&#x20;   Scenario: A weather station classifies rainfall as Light (below 10 mm), Moderate (10–50 mm), Heavy (51–100 mm), and Very Heavy (above 100 mm).
+
+&#x20;   Question: Accept rainfall measurement and display its category.
+
+14\. **Fertilizer Requirement**
+
+&#x20;   Scenario: An agricultural application classifies soil nutrient levels as Deficient (below 20), Low (20–40), Balanced (41–70), and Rich (above 70).
+
+&#x20;   Question: Accept nutrient level and display the soil condition.
+
+15\. **Farm Equipment Fuel Consumption**
+
+&#x20;   Scenario: A farm tracks tractor fuel consumption per hour: Low (below 2 litres), Normal (2–5 litres), High (6–8 litres), and Excessive (above 8 litres).
+
+&#x20;   Question: Accept fuel consumption and display the category.
+
+## **4. Real Estate & Construction**
+
+16\. **Property Size Classification**
+
+&#x20;   Scenario: A real estate application classifies properties as Small (below 500 sq. ft.), Medium (500–1,000), Large (1,001–2,000), and Luxury (above 2,000).
+
+&#x20;   Question: Accept property size and display its category.
+
+17\. **Building Floor Classification**
+
+&#x20;   Scenario: A construction company classifies buildings as Low-Rise (1–4 floors), Mid-Rise (5–10), High-Rise (11–20), and Skyscraper (above 20).
+
+&#x20;   Question: Accept number of floors and display building type.
+
+18\. **Construction Progress**
+
+&#x20;   Scenario: A project manager classifies construction progress as Initial (below 25%), Developing (25–50%), Advanced (51–75%), and Nearly Complete (above 75%).
+
+&#x20;   Question: Accept completion percentage and display project status.
+
+19\. **Property Age Classification**
+
+&#x20;   Scenario: A real estate platform classifies buildings as New (below 5 years), Recent (5–15 years), Old (16–30 years), and Heritage (above 30 years).
+
+&#x20;   Question: Accept building age and display its category.
+
+20\. **Room Occupancy Classification**
+
+&#x20;   Scenario: A hotel management system classifies room occupancy as Low (below 30%), Moderate (30–60%), High (61–85%), and Full (above 85%).
+
+&#x20;   Question: Accept occupancy percentage and display the hotel occupancy status.
+
+## **5. Environment & Energy**
+
+21\. **Air Quality Classification**
+
+&#x20;   Scenario: An environmental monitoring system classifies AQI as Good (0–50), Moderate (51–100), Unhealthy for Sensitive Groups (101–150), Unhealthy (151–200), and Very Unhealthy (above 200).
+
+&#x20;   Question: Accept AQI value and display the air quality category.
+
+22\. **Solar Panel Energy Generation**
+
+&#x20;   Scenario: A solar plant classifies daily energy generation as Low (below 100 kWh), Moderate (100–300 kWh), High (301–500 kWh), and Excellent (above 500 kWh).
+
+&#x20;   Question: Accept generated energy and display its category.
+
+23\. **Noise Pollution Classification**
+
+&#x20;   Scenario: An environmental department classifies noise levels as Quiet (below 40 dB), Moderate (40–60 dB), Loud (61–80 dB), and Very Loud (above 80 dB).
+
+&#x20;   Question: Accept noise level and display its category.
+
+24\. **Battery Charging Classification**
+
+&#x20;   Scenario: An energy storage system classifies battery charge rate as Slow (below 2 kW), Normal (2–5 kW), Fast (6–10 kW), and Ultra Fast (above 10 kW).
+
+&#x20;   Question: Accept charging rate and display the charging category.
+
+25\. **Daily Power Consumption**
+
+&#x20;   Scenario: A building management system classifies daily power usage as Low (below 50 units), Moderate (50–150), High (151–300), and Excessive (above 300).
+
+&#x20;   Question: Accept daily power consumption and display the usage category.
+
+## **6. Communication & Networking**
+
+26\. **Network Latency Classification**
+
+&#x20;   Scenario: A network monitoring system classifies latency as Excellent (below 20 ms), Good (20–50 ms), Average (51–100 ms), and Poor (above 100 ms).
+
+&#x20;   Question: Accept latency and display network performance.
+
+27\. **Server CPU Usage**
+
+&#x20;   Scenario: A server monitoring tool classifies CPU usage as Idle (below 20%), Normal (20–60%), Busy (61–85%), and Critical (above 85%).
+
+&#x20;   Question: Accept CPU usage percentage and display server status.
+
+28\. **Database Response Time**
+
+&#x20;   Scenario: A database monitoring system classifies response time as Excellent (below 100 ms), Good (100–300 ms), Average (301–700 ms), and Slow (above 700 ms).
+
+&#x20;   Question: Accept response time and display database performance.
+
+29\. **Network Packet Loss**
+
+&#x20;   Scenario: A networking application classifies packet loss as Excellent (0%), Good (above 0–1%), Moderate (above 1–3%), and Poor (above 3%).
+
+&#x20;   Question: Accept packet loss percentage and display network quality.
+
+30\. **Server Memory Usage**
+
+&#x20;   Scenario: A server administrator classifies memory usage as Low (below 30%), Normal (30–60%), High (61–80%), and Critical (above 80%).
+
+&#x20;   Question: Accept memory usage percentage and display its status.
+
+## **7. Education & Professional Skills**
+
+31\. **Typing Speed Evaluation**
+
+&#x20;   Scenario: A typing platform classifies typing speed as Beginner (below 20 WPM), Intermediate (20–40 WPM), Advanced (41–70 WPM), and Expert (above 70 WPM).
+
+&#x20;   Question: Accept typing speed and display the skill level.
+
+32\. **Coding Assessment Classification**
+
+&#x20;   Scenario: A coding platform classifies scores as Beginner (below 40), Intermediate (40–60), Advanced (61–85), and Expert (above 85).
+
+&#x20;   Question: Accept coding score and display the skill category.
+
+33\. **Language Proficiency Classification**
+
+&#x20;   Scenario: A language learning platform classifies proficiency as A1 (below 20 points), A2 (20–40), B1 (41–60), B2 (61–80), and C1 (above 80).
+
+&#x20;   Question: Accept proficiency score and display the level.
+
+34\. **Project Completion Evaluation**
+
+&#x20;   Scenario: A project management platform classifies task completion as Not Started (0%), Early Progress (1–25%), Halfway (26–50%), Advanced (51–75%), and Completed (above 75%).
+
+&#x20;   Question: Accept completion percentage and display project status.
+
+35\. **Training Course Progress**
+
+&#x20;   Scenario: An online learning platform classifies course progress as Just Started (below 10%), In Progress (10–50%), Almost Finished (51–90%), and Completed (above 90%).
+
+&#x20;   Question: Accept course progress and display the learning status.
+
+## **8. Automobile & Vehicle Management**
+
+36\. **Tyre Pressure Classification**
+
+&#x20;   Scenario: A vehicle monitoring system classifies tyre pressure as Low (below 25 PSI), Normal (25–35 PSI), High (36–40 PSI), and Very High (above 40 PSI).
+
+&#x20;   Question: Accept tyre pressure and display its status.
+
+37\. **Engine Temperature Classification**
+
+&#x20;   Scenario: A vehicle monitoring system classifies engine temperature as Cold (below 60°C), Normal (60–100°C), Hot (101–120°C), and Critical (above 120°C).
+
+&#x20;   Question: Accept engine temperature and display its condition.
+
+38\. **Vehicle Mileage Classification**
+
+&#x20;   Scenario: An automobile application classifies vehicle mileage as Poor (below 10 km/l), Average (10–15 km/l), Good (16–20 km/l), and Excellent (above 20 km/l).
+
+&#x20;   Question: Accept mileage and display fuel efficiency.
+
+39\. **Tyre Wear Classification**
+
+&#x20;   Scenario: A vehicle maintenance application classifies tyre tread depth as Critical (below 2 mm), Low (2–3 mm), Good (above 3–6 mm), and Excellent (above 6 mm).
+
+&#x20;   Question: Accept tread depth and display tyre condition.
+
+40\. **Vehicle Pollution Classification**
+
+&#x20;   Scenario: A vehicle inspection centre classifies emission levels as Low (below 50 units), Moderate (50–100), High (101–200), and Excessive (above 200).
+
+&#x20;   Question: Accept emission value and display the pollution category.
+
+## **9. Business & Customer Analytics**
+
+41\. **Monthly Sales Performance**
+
+&#x20;   Scenario: A business classifies monthly sales as Poor (below ₹50,000), Average (₹50,000–₹1 lakh), Good (above ₹1 lakh–₹2 lakh), and Excellent (above ₹2 lakh).
+
+&#x20;   Question: Accept monthly sales and display the performance category.
+
+42\. **Customer Purchase Frequency**
+
+&#x20;   Scenario: A business classifies customers based on purchases per month: Rare (0–1), Occasional (2–4), Regular (5–10), and Frequent (above 10).
+
+&#x20;   Question: Accept monthly purchase count and display customer category.
+
+43\. **Website Traffic Classification**
+
+&#x20;   Scenario: A website analytics platform classifies daily visitors as Low (below 1,000), Moderate (1,000–5,000), High (5,001–10,000), and Viral (above 10,000).
+
+&#x20;   Question: Accept daily visitor count and display traffic status.
+
+44\. **Business Profit Classification**
+
+&#x20;   Scenario: A company classifies monthly profit as Loss (below ₹0), Low Profit (₹0–₹10,000), Moderate Profit (₹10,001–₹50,000), and High Profit (above ₹50,000).
+
+&#x20;   Question: Accept monthly profit and display the financial category.
+
+45\. **Customer Support Response Time**
+
+&#x20;   Scenario: A support team classifies response time as Excellent (below 5 minutes), Good (5–15 minutes), Average (16–30 minutes), and Delayed (above 30 minutes).
+
+&#x20;   Question: Accept response time and display support performance.
+
+## **10. Science & Measurement**
+
+46\. **Earthquake Intensity Classification**
+
+&#x20;   Scenario: A geological monitoring system classifies earthquake magnitude as Minor (below 3), Light (3–4.9), Moderate (5–5.9), Strong (6–6.9), and Major (7 or above).
+
+&#x20;   Question: Accept earthquake magnitude and display its category.
+
+47\. **Distance Measurement Classification**
+
+&#x20;   Scenario: A mapping application classifies travel distance as Very Short (below 1 km), Short (1–5 km), Medium (6–20 km), and Long (above 20 km).
+
+&#x20;   Question: Accept distance and display the category.
+
+48\. **Chemical Solution pH Classification**
+
+&#x20;   Scenario: A laboratory classifies a solution as Acidic (below 7), Neutral (7), and Alkaline (above 7).
+
+&#x20;   Question: Accept pH value and display the solution type.
+
+49\. **Sound Frequency Classification**
+
+&#x20;   Scenario: An audio engineering application classifies sound frequency as Low (below 250 Hz), Medium (250–2,000 Hz), High (2,001–8,000 Hz), and Very High (above 8,000 Hz).
+
+&#x20;   Question: Accept frequency and display its category.
+
+50\. **Scientific Object Temperature Classification**
+
+&#x20;   Scenario: A laboratory classifies sample temperatures as Below Freezing (below 0°C), Freezing Point (0°C), Cool (1–15°C), Room Temperature (16–30°C), and Hot (above 30°C).
+
+&#x20;   Question: Accept temperature and display the corresponding category.
+
+# 50 Questions Using Nested if**
+
+
+## **1. Hotel & Hospitality Management**
+
+1\. **Hotel Room Check-in**
+
+&#x20;  Scenario: A hotel first verifies whether a guest has a confirmed reservation. If confirmed, it checks whether the room is ready for check-in.
+
+Question: Accept reservation status and room readiness. Determine whether check-in is possible using nested `if`.
+
+2\. **Hotel Room Upgrade**
+
+&#x20;  Scenario: A hotel first checks whether a guest has booked a premium room. If yes, it checks whether an upgrade room is available.
+
+&#x20;  Question: Accept booking category and upgrade availability and determine whether the guest can receive an upgrade.
+
+3\. **Guest Checkout**
+
+&#x20;  Scenario: A hotel first checks whether the guest has requested checkout. If requested, it checks whether all pending bills have been paid.
+
+&#x20;  Question: Accept checkout request and payment status and determine whether checkout can be completed.
+
+4\. **Conference Hall Booking**
+
+&#x20;  Scenario: An event centre first checks whether a conference hall is available. If available, it checks whether the customer has paid the booking advance.
+
+&#x20;  Question: Accept hall availability and advance payment status and determine whether the booking is confirmed.
+
+5\. **Hotel Laundry Service**
+
+&#x20;  Scenario: A hotel first checks whether a guest has requested laundry service. If requested, it checks whether the laundry department is operating.
+
+&#x20;  Question: Accept service request and department status and determine whether laundry processing can begin.
+
+## **2. Banking & Digital Payments**
+
+6\. **Cheque Clearance**
+
+&#x20;  Scenario: A bank first checks whether a cheque has a valid signature. If valid, it checks whether sufficient funds are available in the account.
+
+&#x20;  Question: Accept signature verification and account balance status and determine whether the cheque can be cleared.
+
+7\. **Credit Card Activation**
+
+&#x20;  Scenario: A bank first checks whether the customer has received their credit card. If received, it checks whether identity verification is completed.
+
+&#x20;  Question: Accept card delivery and identity verification status and determine whether the card can be activated.
+
+8\. **International Money Transfer**
+
+&#x20;  Scenario: A payment application first checks whether international transfers are enabled. If enabled, it checks whether the entered destination country is supported.
+
+&#x20;  Question: Accept transfer permission and country support status and determine whether the transfer can proceed.
+
+9\. **Recurring Payment Setup**
+
+&#x20;  Scenario: A payment platform first checks whether the user has selected a recurring payment option. If selected, it checks whether the bank account is linked.
+
+&#x20;  Question: Accept recurring payment selection and bank linking status and determine whether automatic payments can be configured.
+
+10\. **Digital Wallet Registration**
+
+&#x20;   Scenario: A digital wallet first checks whether the user has verified their mobile number. If verified, it checks whether email verification is completed.
+
+&#x20;   Question: Accept mobile verification and email verification status and determine whether registration can be completed.
+
+## **3. Retail & Store Operations**
+
+11\. **Store Product Reservation**
+
+&#x20;   Scenario: A retail store first checks whether a customer wants to reserve a product. If yes, it checks whether the product is available at the selected branch.
+
+&#x20;   Question: Accept reservation request and branch availability and determine whether the reservation can be made.
+
+12\. **Gift Wrapping Service**
+
+&#x20;   Scenario: A retail store first checks whether a customer has selected gift wrapping. If selected, it checks whether gift-wrapping material is available.
+
+&#x20;   Question: Accept gift-wrapping request and material availability and determine whether the service can be provided.
+
+13\. **Product Exchange**
+
+&#x20;   Scenario: A store first checks whether a customer has requested an exchange. If requested, it checks whether the original purchase receipt is available.
+
+&#x20;   Question: Accept exchange request and receipt availability and determine whether the exchange request can be processed.
+
+14\. **Store Membership Registration**
+
+&#x20;   Scenario: A retail store first checks whether a customer has submitted the membership form. If submitted, it checks whether the required identification document is provided.
+
+&#x20;   Question: Accept form submission and document status and determine whether membership registration can be completed.
+
+15\. **Home Delivery Scheduling**
+
+&#x20;   Scenario: A furniture store first checks whether a customer has selected home delivery. If selected, it checks whether delivery service is available in the customer's area.
+
+&#x20;   Question: Accept delivery selection and location serviceability and determine whether delivery can be scheduled.
+
+## **4. Logistics & Supply Chain**
+
+16\. **Shipment Dispatch**
+
+&#x20;   Scenario: A logistics company first checks whether a shipment has passed quality inspection. If passed, it checks whether a transport vehicle is assigned.
+
+&#x20;   Question: Accept inspection status and vehicle assignment status and determine whether shipment dispatch is possible.
+
+17\. **International Shipment**
+
+&#x20;   Scenario: A courier company first checks whether an international shipment has customs clearance. If cleared, it checks whether the destination country accepts the shipment category.
+
+&#x20;   Question: Accept customs clearance and destination acceptance status and determine whether shipment can proceed.
+
+18\. **Delivery Agent Assignment**
+
+&#x20;   Scenario: A delivery platform first checks whether a delivery request has been received. If received, it checks whether an agent is available in the delivery zone.
+
+&#x20;   Question: Accept request status and agent availability and determine whether an agent can be assigned.
+
+19\. **Container Loading**
+
+&#x20;   Scenario: A shipping company first checks whether a container is available. If available, it checks whether the container has passed its safety inspection.
+
+&#x20;   Question: Accept container availability and inspection status and determine whether loading can begin.
+
+20\. **Shipment Insurance**
+
+&#x20;   Scenario: A logistics company first checks whether the customer has requested shipment insurance. If requested, it checks whether the shipment value has been declared.
+
+&#x20;   Question: Accept insurance request and declared value status and determine whether insurance can be processed.
+
+## **5. Events & Entertainment Management**
+
+21\. **Event Registration**
+
+&#x20;   Scenario: An event organiser first checks whether registration is open. If open, it checks whether seats are available.
+
+&#x20;   Question: Accept registration status and seat availability and determine whether a participant can register.
+
+22\. **VIP Event Entry**
+
+&#x20;   Scenario: An event security system first checks whether a visitor has a VIP pass. If available, it checks whether the pass is valid for the current event.
+
+&#x20;   Question: Accept VIP pass availability and validity and determine whether VIP entry is allowed.
+
+23\. **Concert Merchandise Purchase**
+
+&#x20;   Scenario: A concert store first checks whether the visitor wants to purchase merchandise. If yes, it checks whether the selected merchandise is available.
+
+&#x20;   Question: Accept purchase request and merchandise availability and determine whether the purchase can proceed.
+
+24\. **Museum Guided Tour**
+
+&#x20;   Scenario: A museum first checks whether a visitor has selected a guided tour. If selected, it checks whether a guide is available.
+
+&#x20;   Question: Accept tour selection and guide availability and determine whether the guided tour can be arranged.
+
+25\. **Photography Session Booking**
+
+&#x20;   Scenario: A photography studio first checks whether a customer has selected a photography package. If selected, it checks whether a photographer is available on the requested date.
+
+&#x20;   Question: Accept package selection and photographer availability and determine whether the session can be booked.
+
+## **6. Vehicle & Automobile Services**
+
+26\. **Vehicle Insurance Renewal**
+
+&#x20;   Scenario: An insurance company first checks whether the customer wants to renew an existing policy. If yes, it checks whether the previous policy has expired within the renewal grace period.
+
+&#x20;   Question: Accept renewal request and grace-period status and determine whether renewal is possible.
+
+27\. **Car Wash Booking**
+
+&#x20;   Scenario: A car wash centre first checks whether the customer has selected a car wash service. If selected, it checks whether a service bay is available.
+
+&#x20;   Question: Accept service selection and bay availability and determine whether the booking can be confirmed.
+
+28\. **Vehicle Pollution Certificate**
+
+&#x20;   Scenario: An inspection centre first checks whether a vehicle has completed its emission test. If completed, it checks whether the emission result is within the permitted limit.
+
+&#x20;   Question: Accept test completion and emission result status and determine whether a pollution certificate can be issued.
+
+29\. **Vehicle Rental**
+
+&#x20;   Scenario: A rental company first checks whether the requested vehicle is available. If available, it checks whether the customer has submitted the required driving documents.
+
+&#x20;   Question: Accept vehicle availability and document submission status and determine whether the vehicle can be rented.
+
+30\. **Vehicle Breakdown Assistance**
+
+&#x20;   Scenario: A roadside assistance company first checks whether the customer has an active service membership. If active, it checks whether assistance is available in the current location.
+
+&#x20;   Question: Accept membership status and location coverage and determine whether roadside assistance can be provided.
+
+## **7. Office & Administration**
+
+31\. **Meeting Room Allocation**
+
+&#x20;   Scenario: An office administration system first checks whether an employee has requested a meeting room. If requested, it checks whether the room is available at the selected time.
+
+&#x20;   Question: Accept meeting request and room availability and determine whether the room can be allocated.
+
+32\. **Visitor Registration**
+
+&#x20;   Scenario: An office reception system first checks whether a visitor has an appointment. If an appointment exists, it checks whether the concerned employee has approved the visit.
+
+&#x20;   Question: Accept appointment status and employee approval and determine whether visitor entry can be allowed.
+
+33\. **Company Equipment Allocation**
+
+&#x20;   Scenario: An IT department first checks whether an employee has requested a laptop. If requested, it checks whether laptops are available in the equipment inventory.
+
+&#x20;   Question: Accept equipment request and laptop availability and determine whether a laptop can be allocated.
+
+34\. **Document Approval**
+
+&#x20;   Scenario: An office first checks whether a document has been submitted. If submitted, it checks whether the department head has reviewed it.
+
+&#x20;   Question: Accept submission and review status and determine whether the document can move to the next stage.
+
+35\. **Business Travel Booking**
+
+&#x20;   Scenario: An administration department first checks whether an employee's travel request has been approved. If approved, it checks whether the travel budget is available.
+
+&#x20;   Question: Accept travel approval and budget availability and determine whether travel booking can proceed.
+
+## **8. Education & Training Platforms**
+
+36\. **Online Course Certificate**
+
+&#x20;   Scenario: An online learning platform first checks whether a learner has completed all course modules. If completed, it checks whether the final assessment has been submitted.
+
+&#x20;   Question: Accept module completion and assessment submission status and determine whether a certificate can be generated.
+
+37\. **Coding Competition Submission**
+
+&#x20;   Scenario: A coding platform first checks whether a participant has registered for a competition. If registered, it checks whether the solution was submitted before the deadline.
+
+&#x20;   Question: Accept registration status and submission timing and determine whether the solution can be accepted.
+
+38\. **Laboratory Equipment Access**
+
+&#x20;   Scenario: A college laboratory first checks whether a student has a practical session scheduled. If scheduled, it checks whether the laboratory supervisor has approved access.
+
+&#x20;   Question: Accept session schedule and supervisor approval and determine whether laboratory access is allowed.
+
+39\. **Online Examination Submission**
+
+&#x20;   Scenario: An examination platform first checks whether a student has started the examination. If started, it checks whether the examination timer is still active.
+
+&#x20;   Question: Accept exam-start status and timer status and determine whether answers can be submitted.
+
+40\. **Internship Completion Approval**
+
+&#x20;   Scenario: A training organisation first checks whether an intern has submitted their final project. If submitted, it checks whether the mentor has approved the project.
+
+&#x20;   Question: Accept project submission and mentor approval status and determine whether internship completion can be approved.
+
+## **9. Agriculture & Food Processing**
+
+41\. **Crop Harvest Approval**
+
+&#x20;   Scenario: A farming application first checks whether the crop has reached its expected maturity date. If reached, it checks whether the field inspection has approved harvesting.
+
+&#x20;   Question: Accept maturity status and inspection approval and determine whether harvesting can begin.
+
+42\. **Dairy Milk Collection**
+
+&#x20;   Scenario: A dairy collection centre first checks whether a farmer has delivered milk. If delivered, it checks whether the milk passes the quality test.
+
+&#x20;   Question: Accept milk delivery and quality test status and determine whether milk can be accepted.
+
+43\. **Food Processing Batch Approval**
+
+&#x20;   Scenario: A food processing company first checks whether a production batch is completed. If completed, it checks whether the quality department has approved the batch.
+
+&#x20;   Question: Accept production completion and quality approval and determine whether the batch can be packaged.
+
+44\. **Cold Storage Admission**
+
+&#x20;   Scenario: A food distribution centre first checks whether storage space is available. If available, it checks whether the incoming products meet the required storage conditions.
+
+&#x20;   Question: Accept storage availability and product condition and determine whether products can be stored.
+
+45\. **Seed Distribution**
+
+&#x20;   Scenario: An agricultural department first checks whether a farmer has registered for seed distribution. If registered, it checks whether the requested seed variety is available.
+
+&#x20;   Question: Accept registration status and seed availability and determine whether seeds can be distributed.
+
+## **10. Digital Services & Administration**
+
+46\. **Domain Registration**
+
+&#x20;   Scenario: A domain registration platform first checks whether a user has entered a domain name. If entered, it checks whether the domain name is available for registration.
+
+&#x20;   Question: Accept domain entry status and domain availability and determine whether registration can proceed.
+
+47\. **Cloud Storage Activation**
+
+&#x20;   Scenario: A cloud platform first checks whether a customer has selected a storage plan. If selected, it checks whether the payment has been completed.
+
+&#x20;   Question: Accept plan selection and payment status and determine whether cloud storage can be activated.
+
+48\. **API Access Request**
+
+&#x20;   Scenario: A developer portal first checks whether a developer has registered an application. If registered, it checks whether the application has been approved by the administrator.
+
+&#x20;   Question: Accept application registration and approval status and determine whether API access can be granted.
+
+49\. **Website Domain Verification**
+
+&#x20;   Scenario: A hosting platform first checks whether a user has added a custom domain. If added, it checks whether DNS verification has been completed.
+
+&#x20;   Question: Accept domain addition and DNS verification status and determine whether the domain can be connected.
+
+50\. **Cloud Backup Restoration**
+
+&#x20;   Scenario: A cloud storage service first checks whether a backup file exists. If it exists, it checks whether the backup file has passed integrity verification.
+
+&#x20;   Question: Accept backup availability and integrity verification status and determine whether restoration can begin.

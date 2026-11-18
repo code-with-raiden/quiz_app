@@ -1,0 +1,77 @@
+Exception Handling & Custom Exceptions
+
+**1. Division Calculator**
+
+Write a Python program to accept two numbers from the user and perform division. Handle the `ZeroDivisionError` if the second number is zero.
+
+**2. Integer Input Validation**
+
+Write a program to accept an integer from the user. Handle the `ValueError` if the user enters a string or invalid input.
+
+**3. List Index Handling**
+
+Create a list of 5 elements. Ask the user to enter an index and display the corresponding element. Handle the `IndexError` if the index is out of range.
+
+**4. File Handling**
+
+Write a program to open and read a file named `data.txt`. Handle the `FileNotFoundError` if the file does not exist.
+
+**5. Multiple Exception Handling**
+
+Write a calculator program that accepts two numbers and an operator (+, -, \*, /). Handle the following exceptions:
+
+- `ValueError`
+- `ZeroDivisionError`
+- `TypeError`
+
+## **Part B: Custom Exception Handling**
+
+**6. Age Validation**
+
+Create a custom exception called `InvalidAgeError`.
+
+Write a program that accepts a person's age:
+
+- If age is below 18, raise `InvalidAgeError`.
+- Otherwise, display "Eligible to Vote".
+
+**7. Insufficient Bank Balance**
+
+Create a custom exception called `InsufficientBalanceError`.
+
+Write a bank withdrawal program:
+
+- Accept the account balance and withdrawal amount.
+- If the withdrawal amount is greater than the balance, raise the custom exception.
+- Otherwise, deduct the amount and display the remaining balance.
+
+**8. Password Validation**
+
+Create a custom exception called `WeakPasswordError`.
+
+Write a program to validate a password:
+
+- Password must contain at least 8 characters.
+- Password must contain at least one digit.
+- If these conditions are not satisfied, raise `WeakPasswordError`.
+
+**9. Minimum Marks Validation**
+
+Create a custom exception called `InvalidMarksError`.
+
+Write a program that accepts marks from a student:
+
+- Marks must be between 0 and 100.
+- If marks are less than 0 or greater than 100, raise `InvalidMarksError`.
+- Otherwise, calculate and display the grade.
+
+**10. Shopping Cart Quantity Validation**
+
+Create a custom exception called `InvalidQuantityError`.
+
+Write a shopping cart program:
+
+- Accept available stock and required quantity.
+- If the requested quantity is zero or negative, raise `InvalidQuantityError`.
+- If the requested quantity exceeds available stock, raise `InvalidQuantityError`.
+- Otherwise, display the order confirmation.

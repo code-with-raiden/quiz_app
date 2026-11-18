@@ -1,0 +1,169 @@
+# **Python Programming Practice – 60 Programs**
+
+**Level:** Beginner to Intermediate
+
+## **1. List Comprehension – 10 Programs**
+
+1. **Square Numbers:** Generate a list of squares of numbers from 1 to 20 using list comprehension.
+2. **Even Numbers:** Create a list of all even numbers between 1 and 100.
+3. **Odd Numbers:** Generate a list of odd numbers from 1 to 50.
+4. **Positive Numbers:** Given a list of positive and negative numbers, extract only positive numbers.
+    
+   numbers = [-10, 20, -5, 30, 0, 15, -8]
+    
+5. **Divisible by 5:** Generate all numbers between 1 and 100 that are divisible by 5.
+6. **Word Length:** Given a list of words, create a new list containing the length of each word.
+    
+   words = ["Python", "Django", "Java", "Programming"]
+    
+7. **Vowels Extraction:** Extract all vowels from a given string using list comprehension.
+8. **Nested List Filtering:** Extract numbers greater than 10 from a nested list.
+    
+   data = [[5, 12, 18], [7, 21, 24], [30, 9, 16]]
+    
+9. **Common Elements:** Given two lists, create a new list containing only the common elements.
+    
+   a = [10, 20, 30, 40, 50]b = [20, 40, 60, 80]
+    
+10. **Prime Numbers:** Generate a list of all prime numbers between 1 and 100 using list comprehension.
+
+## **2. Set Comprehension – 10 Programs**
+
+1. **Square Set:** Generate a set containing squares of numbers from 1 to 20.
+2. **Even Number Set:** Create a set of all even numbers between 1 and 50.
+3. **Unique Characters:** Extract all unique characters from a given string.
+    
+   text = "programming"
+    
+4. **Unique Word Lengths:** Given a list of words, create a set containing their unique lengths.
+    
+   words = ["apple", "banana", "cat", "dog", "orange"]
+    
+5. **Divisible Numbers:** Generate a set of numbers between 1 and 100 divisible by both 3 and 5.
+6. **Positive Number Set:** Extract all unique positive numbers from a given list.
+    
+   numbers = [-5, 10, 20, -10, 10, 30, 20, -2]
+    
+7. **Common Characters:** Find the common characters between two strings using set comprehension.
+    
+   a = "python"b = "django"
+    
+8. **Vowels Set:** Extract all unique vowels from a given sentence.
+9. **Tuple Filtering:** Given a list of tuples, create a set containing only the first elements of tuples whose second element is greater than 50.
+    
+   data = [(1, 40), (2, 60), (3, 80), (4, 30)]
+    
+10. **Unique Initials:** Given a list of names, create a set containing the first letter of each name.
+
+## **3. Dictionary Comprehension – 10 Programs**
+
+1. **Number Squares:** Create a dictionary where keys are numbers from 1 to 10 and values are their squares.
+
+   Expected format: `{1: 1, 2: 4, 3: 9}`
+2. **Number Cubes:** Create a dictionary containing numbers from 1 to 10 and their cubes.
+3. **Even Number Dictionary:** Create a dictionary containing only even numbers from 1 to 50 as keys and their squares as values.
+4. **Character Frequency:** Given a string, create a dictionary containing each character and its frequency.
+5. **Word Length Dictionary:** Create a dictionary where each word is a key and its length is the value.
+    
+   words = ["Python", "Java", "Django", "Flask"]
+    
+6. **Temperature Conversion:** Create a dictionary containing Celsius values from 0 to 100 (in steps of 10) as keys and Fahrenheit values as values.
+7. **Filter Marks:** Given a dictionary of student names and marks, create a new dictionary containing only students who scored above 60.
+    
+   marks = {"Ram": 85, "Sam": 45, "John": 75, "Ravi": 50}
+    
+8. **Reverse Dictionary:** Given a dictionary, create a new dictionary by swapping keys and values.
+9. **Product Discount:** Given a dictionary of product prices, create a new dictionary with a 10% discount applied to every product.
+    
+   products = {"Mobile": 20000, "Laptop": 50000, "Tablet": 15000}
+    
+10. **Nested Dictionary:** Create a dictionary of numbers from 1 to 5 where each key contains a nested dictionary with its square and cube.
+
+## **4. Lambda Functions – 10 Programs**
+
+1. Write a lambda function to calculate the square of a number.
+2. Write a lambda function to calculate the cube of a number.
+3. Write a lambda function to check whether a number is even or odd.
+4. Write a lambda function to find the largest of two numbers.
+5. Write a lambda function to calculate the sum of three numbers.
+6. Write a lambda function to convert Celsius into Fahrenheit.
+7. Write a lambda function to calculate the area of a rectangle using length and breadth.
+8. Write a lambda function to check whether a given string starts with the letter 'A'.
+9. Write a lambda function to calculate the simple interest using principal, rate, and time.
+10. Write a lambda function to find the last character of a given string.
+
+## **5. Map Function – 10 Programs**
+
+1. **Square Numbers:** Use `map()` to generate squares of all numbers in a list.
+    
+   numbers = [1, 2, 3, 4, 5]
+    
+2. **Cube Numbers:** Use `map()` to generate cubes of numbers from a given list.
+3. **Convert to Uppercase:** Use `map()` to convert all strings in a list into uppercase.
+    
+   words = ["python", "django", "java", "flask"]
+    
+4. **String Length:** Use `map()` to calculate the length of every word in a list.
+5. **Celsius to Fahrenheit:** Use `map()` to convert a list of Celsius temperatures into Fahrenheit.
+6. **Add Two Lists:** Use `map()` to add corresponding elements of two lists.
+    
+   a = [10, 20, 30, 40]b = [1, 2, 3, 4]
+    
+7. **Add 10:** Use `map()` to add 10 to every element in a given list.
+8. **Convert to Integers:** Given a list of numeric strings, use `map()` to convert them into integers.
+    
+   values = ["10", "20", "30", "40"]
+    
+9. **Calculate Areas:** Use `map()` to calculate the areas of multiple rectangles using two lists containing lengths and breadths.
+10. **Extract First Characters:** Use `map()` to extract the first character from every word in a list.
+
+## **6. File Handling – 10 Programs**
+
+Practice file operations using `open()`, `read()`, `write()`, `append()`, and `with`.
+
+**1. Create and Write a File**
+
+Write a Python program to create a file named `student.txt` and write student details such as name, age, and course.
+
+**2. Read a File**
+
+Write a program to read and display the complete contents of `student.txt`.
+
+**3. Append Data**
+
+Write a program to append new student details to an existing file without deleting the previous content.
+
+**4. Count Characters**
+
+Write a program to read a file and count the total number of characters present in it.
+
+**5. Count Words**
+
+Write a program to read a text file and count the total number of words.
+
+**6. Count Lines**
+
+Write a program to read a file and count the total number of lines.
+
+**7. Search a Word**
+
+Write a program to accept a word from the user and check whether that word exists in a file.
+
+**8. Copy File Content**
+
+Write a program to read the contents of `source.txt` and write the same content into `destination.txt`.
+
+**9. Find the Longest Word**
+
+Write a program to read a text file and identify the longest word present in it.
+
+**10. Student Record Management**
+
+Create a student record management program using file handling.
+
+Requirements:
+
+- Add student details to a file.
+- Display all student records.
+- Search for a student by name.
+- Append new student records without deleting existing records.

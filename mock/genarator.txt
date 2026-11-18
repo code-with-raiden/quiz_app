@@ -1,0 +1,13 @@
+# WAGF to yield only flaot values from the list 
+#  WAGF that yields prime  numbers from 1 to 10.
+#  WAGF that yields the square of each number from 1 to n.
+# WAGF that counts down from n to 1.
+# WAGF that yields one character at a time from a given string.
+# WAGF function my_range(start, stop, step) that works like Python's built-in range() function using yield.
+""" 
+Scenario:
+An e-commerce platform receives thousands of orders every minute. To reduce memory usage, orders should be processed one at a time.
+
+Question:
+Given a list of orders, write a generator that yields one order at a time. Then write code to process each order as it is received.
+"""

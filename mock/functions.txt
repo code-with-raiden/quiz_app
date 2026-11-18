@@ -1,0 +1,206 @@
+#! functions
+## **1. Positional Arguments (Questions 1–3)**
+
+1\. **Employee Details**
+ 
+&#x20;  Scenario: An HR application needs to display an employee's name, department, and salary.
+
+Question: Define a function `employee_details(name, department, salary)` that accepts three positional arguments and displays the employee details.
+
+2\. **Calculate Rectangle Area**
+
+&#x20;  Scenario: A construction application needs to calculate the area of a rectangular room using its length and width.
+
+Question: Define a function `calculate_area(length, width)` that accepts two positional arguments and returns the area.
+
+3\. **Student Total Marks**
+
+&#x20;  Scenario: A school wants to calculate a student's total marks in three subjects.
+
+Question: Define a function `total_marks(subject1, subject2, subject3)` that accepts three positional arguments and returns their total.
+
+## **2. Keyword Arguments (Questions 4–6)**
+
+4\. **Product Information**
+
+&#x20;  Scenario: An online store needs to display product information such as product name, price, and brand.
+
+Question: Define a function `product_details(name, price, brand)` and call it using keyword arguments.
+
+5\. **Movie Information**
+
+&#x20;  Scenario: A movie application needs to display movie name, director, and release year.
+
+Question: Define a function `movie_details(name, director, year)` and call it using keyword arguments in a different order.
+
+6\. **Customer Address**
+
+&#x20;  Scenario: A delivery application needs to store a customer's name, city, and postal code.
+
+Question: Define a function `customer_address(name, city, pincode)` and call it using keyword arguments.
+
+## **3. Combination of Positional and Keyword Arguments (Questions 7–9)**
+
+7\. **Mobile Recharge**
+
+&#x20;  Scenario: A mobile application processes recharges using a mobile number, recharge amount, and validity period.
+
+Question: Define a function `mobile_recharge(number, amount, validity)` and call it by passing the mobile number as a positional argument and the remaining arguments as keyword arguments.
+
+8\. **Book Registration**
+
+&#x20;  Scenario: A library maintains book records using book title, author, and publication year.
+
+Question: Define a function `book_details(title, author, year)` and call it using a combination of positional and keyword arguments.
+
+9\. **Flight Booking**
+
+&#x20;  Scenario: An airline application needs passenger name, destination, and ticket class to create a booking summary.
+
+Question: Define a function `flight_booking(name, destination, ticket_class)` and call it using a positional argument for the passenger name and keyword arguments for the remaining details.
+
+## **4. Positional-Only Arguments (Questions 10–12)**
+
+*Hint: Use `/` in the function definition.*
+
+10\. **Temperature Conversion**
+
+&#x20;   Scenario: A weather application converts temperature from Celsius to Fahrenheit.
+
+Question: Define a function `convert_temperature(celsius, /)` that accepts only a positional argument and returns the Fahrenheit temperature.
+
+11\. **Calculate Square**
+
+&#x20;   Scenario: A mathematical application needs to calculate the square of a given number.
+
+Question: Define a function `calculate_square(number, /)` that accepts only a positional argument and returns its square.
+
+12\. **Calculate Discount**
+
+&#x20;   Scenario: A shopping application calculates a discount amount based on the original price and discount percentage.
+
+Question: Define a function `calculate_discount(price, percentage, /)` that accepts two positional-only arguments and returns the discount amount.
+
+## **5. Keyword-Only Arguments (Questions 13–15)**
+
+*Hint: Use `*` before keyword-only parameters.*
+
+13\. **Email Notification**
+
+&#x20;   Scenario: An application sends email notifications using the recipient's email address and message.
+
+Question: Define a function `send_email(*, email, message)` that accepts only keyword arguments and displays the email details.
+
+14\. **Hotel Booking Details**
+
+&#x20;   Scenario: A hotel booking system needs the number of guests and number of nights to calculate the total stay duration.
+
+Question: Define a function `hotel_booking(*, guests, nights)` that accepts keyword-only arguments and displays the booking details.
+
+15\. **Product Price Calculation**
+
+&#x20;   Scenario: An online store calculates the final product price using its base price and tax percentage.
+
+Question: Define a function `final_price(*, price, tax)` that accepts keyword-only arguments and returns the price after adding tax.
+
+## **6. Combination of Positional-Only and Keyword-Only Arguments (Questions 16–18)**
+
+*Hint: Use `/` and `*` together.*
+
+16\. **Employee Salary Calculation**
+
+&#x20;   Scenario: A company calculates an employee's final salary using basic salary and bonus percentage.
+
+Question: Define a function `salary_calculation(basic_salary, /, *, bonus)` where basic salary is positional-only and bonus is keyword-only. Return the final salary.
+
+17\. **Distance Conversion**
+
+&#x20;   Scenario: A travel application converts kilometres into miles using a conversion factor.
+
+Question: Define a function `convert_distance(kilometers, /, *, conversion_factor)` where kilometres must be positional-only and conversion factor must be keyword-only.
+
+18\. **Student Result Generation**
+
+&#x20;   Scenario: An examination system calculates a student's result using total marks and maximum marks.
+
+Question: Define a function `student_result(total_marks, /, *, maximum_marks)` where total marks is positional-only and maximum marks is keyword-only. Calculate and return the percentage.
+
+## **7. Variable-Length Positional Arguments (\*args) (Questions 19–22)**
+
+19\. **Shopping Cart Total**
+
+&#x20;   Scenario: An online shopping application allows customers to purchase any number of products. The application needs to calculate the total price of all products.
+
+Question: Define a function `cart_total(*prices)` that accepts multiple product prices and returns their total.
+
+20\. **Calculate Average Marks**
+
+&#x20;   Scenario: A teacher wants to calculate the average marks of a student across multiple subjects. The number of subjects may vary.
+
+Question: Define a function `calculate_average(*marks)` that accepts multiple marks and returns their average.
+
+21\. **Restaurant Bill Calculation**
+
+&#x20;   Scenario: A restaurant customer orders multiple food items. The billing system needs to calculate the total bill.
+
+Question: Define a function `restaurant_bill(*items)` that accepts multiple item prices and returns the total bill.
+
+22\. **Find Maximum Number**
+
+&#x20;   Scenario: A mathematical application receives multiple numbers from a user and needs to identify the largest number.
+
+Question: Define a function `find_maximum(*numbers)` that accepts any number of positional arguments and returns the largest number.
+
+## **8. Variable-Length Keyword Arguments (\*\*kwargs) (Questions 23–25)**
+
+23\. **User Profile Management**
+
+&#x20;   Scenario: A social media application stores different user details such as name, age, city, email, and profession. Different users may have different profile information.
+
+Question: Define a function `user_profile(**details)` that accepts any number of keyword arguments and displays all the user information.
+
+24\. **Product Registration**
+
+&#x20;   Scenario: An inventory application stores product details such as name, price, brand, category, and quantity. Additional product details may also be provided.
+
+Question: Define a function `register_product(**product_info)` that accepts multiple keyword arguments and displays all product information.
+
+25\. **Employee Record Management**
+
+&#x20;   Scenario: An HR system stores employee information such as employee ID, name, department, salary, and experience. The number of details may vary.
+
+Question: Define a function `employee_record(**details)` that accepts variable-length keyword arguments and displays the employee record.
+
+## **9. Default Arguments (Questions 26–30)**
+
+*Hint: Assign default values to parameters in the function definition.*
+
+26\. **Greeting Application**
+
+Scenario: A mobile application greets users. If the user does not provide a name, the application should display a default greeting using the name `Guest`.
+
+Question: Define a function `greet_user(name="Guest")` that displays a greeting. Call it once without an argument and once with a name.
+
+27\. **Ticket Booking**
+
+&#x20;   Scenario: A cinema application sells movie tickets. The default ticket price is ₹150, but users may choose a different ticket price.
+
+Question: Define a function `book_ticket(price=150)` that displays the ticket price. Call it with and without an argument.
+
+28\. **Shipping Cost Calculation**
+
+&#x20;   Scenario: An online store charges ₹50 as the default shipping fee. Some special delivery services may have a different shipping charge.
+
+Question: Define a function `shipping_cost(amount, delivery_charge=50)` that adds the delivery charge to the order amount and returns the total.
+
+29\. **Employee Information**
+
+Scenario: A company stores employee information. If the employee's department is not provided, the system should assign the default department as `General`.
+
+Question: Define a function `employee_info(name, department="General")` that displays employee details. Call it with and without the department argument.
+
+30\. **Mobile Data Recharge**
+
+&#x20;   Scenario: A telecom application offers a default data recharge of 1 GB. Customers can select a different data amount when needed.
+
+Question: Define a function `data_recharge(data=1)` that displays the selected data amount. Call it with and without an argument.

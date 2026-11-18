@@ -1,0 +1,54 @@
+# **20 Real-World Scenario-Based Python Questions on Decorators**
+
+**Topic:** Python Decorators
+
+
+## **1. Basic Decorators**
+ 
+1\. **Welcome Message:** Create a decorator that displays `"Welcome to RaidenHub!"` before executing a function that displays the user's name.
+
+2\. **Thank You Message:** Create a decorator that displays `"Thank you for visiting!"` after a function displays a website's details.
+
+3\. **Function Execution:** Create a decorator that displays `"Function execution started"` before calling a function and `"Function execution completed"` after it finishes.
+
+4\. **Company Branding:** Create a decorator that displays `"Powered by RaidenHub TechStudio"` before displaying a company's service details.
+
+5\. **Reminder Notification:** Create a decorator that displays `"Don't forget to save your work!"` before executing a function that displays a document's content.
+
+## **2. Decorators with Arguments**
+
+6\. **User Login:** Create a decorator that checks whether a user is logged in before allowing them to access a dashboard function.
+
+7\. **Age Verification:** Create a decorator that checks whether a customer's age is 18 or above before allowing them to access a restricted-content function.
+
+8\. **Minimum Balance:** Create a decorator that checks whether a bank account has a minimum balance of ₹1,000 before allowing a transaction function to execute.
+
+9\. **Role-Based Access:** Create a decorator that allows only users with the `"admin"` role to execute a delete-record function.
+
+10\. **Positive Number Validation:** Create a decorator that checks whether the number passed to a function is positive before calculating its square.
+
+## **3. Practical Application Decorators**
+
+11\. **Execution Counter:** Create a decorator that counts how many times a function has been executed.
+
+12\. **Execution Time Message:** Create a decorator that displays the start and end time messages whenever a report-generation function is executed. (Actual time calculation is optional.)
+
+13\. **Error Handling:** Create a decorator that handles `ZeroDivisionError` when a function performs division.
+
+14\. **Input Validation:** Create a decorator that checks whether the input provided to a customer-registration function is empty or not.
+
+15\. **Uppercase Output:** Create a decorator that converts the returned string from a function into uppercase.
+
+## **4. Multiple and Advanced Beginner Decorators**
+
+16\. **Discount Application:** Create a decorator that applies a 10% discount to the price returned by a product-price function.
+
+17\. **Access Logging:** Create a decorator that displays the username whenever a user accesses a profile function.
+
+18\. **Result Formatting:** Create a decorator that adds `"Result: "` before the value returned by a calculation function.
+
+19\. **Multiple Decorators:** Create two decorators:
+
+- One displays `"Authentication successful"`.
+- Another displays `"Welcome to Dashboard"`.
+
